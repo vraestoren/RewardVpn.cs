@@ -7,6 +7,7 @@ namespace RewardVpnApi
     {
         private readonly HttpClient httpClient;
         private readonly string apiUrl = "https://rewardsvpn.com/vpnadmin";
+        
         public RewardVpn()
         {
             httpClient = new HttpClient();
